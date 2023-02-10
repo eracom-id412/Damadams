@@ -8,8 +8,7 @@ header{
     background-color: #FB3F5C;
     justify-content: flex-end;
     display: flex; 
-    margin: 0px;
-    
+    height: 65px;
 }
 
 #Logotype{
@@ -19,20 +18,22 @@ header{
     width: 162px;
     height: 50px;
     left: 124px;
-    top: 29px;
+    top: 8px;
     font-family:'Nova Mono', regular ;
-     }
+  }
 
 #topnav {
     flex: 2 1 100%; 
     display: flex;
-    gap: 9rem;
+    gap: 6rem;
     justify-content: flex-end;
-    font-size: 24px;
-    margin-top: 2rem;
-    margin-right: 20px;
+    align-items: center;
+    font-size: 15px;
     color:#F8EEEF ;
     font-family: 'Nunito Sans', sans-serif;
+    margin-right: 40px;
+    
+    
     
     
 }
@@ -51,6 +52,9 @@ h2{
 }
 h3{
     font-family: 'Nunito Sans';
+}
+p{
+    margin: 0px;
 }
 #Ph img{
     object-position: right top;
