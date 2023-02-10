@@ -1,0 +1,76 @@
+body{ 
+    margin: 0px;
+}
+
+/*header*/
+
+header{
+    background-color: #FB3F5C;
+    justify-content: flex-end;
+    display: flex; 
+    margin: 0px;
+    
+}
+
+#Logotype{
+    font-size: 36px;
+    color: #F8EEEF;
+    position: absolute;
+    width: 162px;
+    height: 50px;
+    left: 124px;
+    top: 29px;
+    font-family:'Nova Mono', regular ;
+     }
+
+#topnav {
+    flex: 2 1 100%; 
+    display: flex;
+    gap: 9rem;
+    justify-content: flex-end;
+    font-size: 24px;
+    margin-top: 2rem;
+    margin-right: 20px;
+    color:#F8EEEF ;
+    font-family: 'Nunito Sans', sans-serif;
+    
+    
+}
+h1{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+}
+h2{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    text-transform: capitalize;
+    color: #191018;
+}
+h3{
+    font-family: 'Nunito Sans';
+}
+#Ph img{
+    object-position: right top;
+}
+.container{
+    
+
+}
+
+#nana{
+    background: url(source/PNG/Rectangle_396.png);
+    background-size: 300px;
+}
+
+body{ 
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffff
+}
+#img {
+	width: 50px;
+	height: 50px;
+}
