@@ -1,16 +1,16 @@
 body{ 
     margin: 0px;
+    font-family: 'Nunito';
+    
 }
 
 /*header*/
-
 header{
     background-color: #FB3F5C;
     justify-content: flex-end;
     display: flex; 
     height: 65px;
 }
-
 #Logotype{
     font-size: 36px;
     color: #F8EEEF;
@@ -21,7 +21,6 @@ header{
     top: 8px;
     font-family:'Nova Mono', regular ;
   }
-
 #topnav {
     flex: 2 1 100%; 
     display: flex;
@@ -31,25 +30,23 @@ header{
     font-size: 15px;
     color:#F8EEEF ;
     font-family: 'Nunito Sans', sans-serif;
-    margin-right: 40px;
-    
-    
-    
-    
+    margin-right: 40px;   
 }
-h1{
-    font-family: 'Nunito Sans';
-    font-style: normal;
+
+/*Première section*/
+
+.container h1{
+    font-weight: 400;
 }
-h2{
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
+
+.container h2{
+    font-weight : 700;
     font-size: 50px;
     line-height: 68px;
     text-transform: capitalize;
     color: #191018;
 }
+
 h3{
     font-family: 'Nunito Sans';
 }
@@ -64,9 +61,12 @@ p{
 
 }
 
-#nana{
+#femme{
     background: url(source/PNG/Rectangle_396.png);
     background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
 }
 
 body{ 
