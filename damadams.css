@@ -1,7 +1,6 @@
 body{ 
     margin: 0px;
-    font-family: 'Nunito';
-    
+    font-family: 'Nunito';  
 }
 
 /*header*/
@@ -33,8 +32,11 @@ header{
     margin-right: 40px;   
 }
 
-/*Première section*/
+/*Premiere section*/
 
+#femme{
+    display: flex;
+}
 .container h1{
     font-weight: 400;
 }
