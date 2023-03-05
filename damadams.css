@@ -6,6 +6,9 @@ body{
 
 }
 
+
+
+
 /*header*/
 header{
     background-color: #FB3F5C;
@@ -35,8 +38,9 @@ header{
     margin-right: 40px;   
 }
 
-/*Premiere section*/
 
+
+/*Premiere section*/
 #femme{
     display: flex;
     align-items: center;
@@ -58,14 +62,14 @@ header{
     line-height: 68px;
     text-transform: capitalize;
     color: #191018;
-    margin-left: -49px;
+    margin-left: -1px;
+    margin-top: -29px;
+    margin-right: 191px;
+    margin-bottom: -18px;
 }
 .container h3{
     font-family: 'Nunito Sans';
     width: 342px;
-
-
-    
 }
 #visage{
     object-position: right top;
@@ -73,7 +77,31 @@ header{
     margin-right: 40px;
 }
 
-/*About me*/
-p{
-    margin: 0px;
+/*Works*/
+.preview{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    justify-content: center;
+}
+
+
+/*Footer*/
+#footer{
+    background: #FB3F5C;
+    margin-top: 150px;
+    padding: 23px 20px;
+}
+#info{
+    justify-content: center;
+    color: #F8EEEF;
+    display: flex;
+    margin: 50px;
+    gap: 2rem;
+}
+#resseau{
+    justify-content: center;
+    display: flex;
+    gap: 1em;
+    margin-bottom: 40px;
 }
