@@ -78,19 +78,20 @@ header{
 }
 
 /*Works*/
-h4{
-    margin-top: 50px;
-
+.titre h4{
+    margin-top: 135px;
+    margin-bottom: -115px;
+    
 }
 .works{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    justify-content: center;
+    grid-row-gap: 50px;
     margin: 50px 100px 75px 100px;
     margin-top: 190px;
+    margin-left: 230px;
 }
 .preview{
     align-content: center;
